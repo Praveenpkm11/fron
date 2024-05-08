@@ -1,0 +1,91 @@
+/* CSS for Image Caption Generator */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 600px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.upload-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.upload-label {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.upload-input {
+  display: none;
+}
+
+.upload-section button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-section button:hover {
+  background-color: #45a049;
+}
+
+.image-preview {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+.caption-display {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* CSS for listen button */
+#listenBtn {
+  background: none;
+  border: none;
+}
+
+#listenBtn img {
+  width: 54px; /* Adjust the size as needed */
+  height: 54px; /* Adjust the size as needed */
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Caption Generator</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Image Caption Generator</h1>
+    </header>
+
+    <!-- Main content -->
+    <main>
+    
+      <!-- Image upload section -->
+      <section class="upload-section">
+        <label for="upload" class="upload-label">Choose File</label>
+        <input type="file" id="upload" accept="image/*" class="upload-input">
+        <button id="generateBtn">Generate Caption</button>
+      </section>
+
+      <!-- Image preview section -->
+      <section class="image-preview" id="imagePreview">
+        <!-- Image will be displayed here -->
+      </section>
+
+      <!-- Caption display section -->
+      <section class="caption-display" id="captionDisplay">
+        <!-- Caption will be displayed here -->
+      </section>
+    </main>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
